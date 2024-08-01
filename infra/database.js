@@ -14,9 +14,9 @@ async function query(queryObject) {
     port: process.env.POSTGRES_PORT,
     user: process.env.POSTGRES_USER,
     database: process.env.POSTGRES_DB,
-    password: process.env.POSTGRES_PASSWORD,
-    is_enviroment_not_dev:
-      process.env.NODE_ENV === "development" ? false : true,
+    //password: process.env.POSTGRES_PASSWORD,
+    //is_enviroment_not_dev:
+    //  process.env.NODE_ENV === "development" ? false : true,
   });
 
   try {
